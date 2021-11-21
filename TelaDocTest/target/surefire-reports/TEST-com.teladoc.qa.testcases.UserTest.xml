@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.teladoc.qa.testcases.UserTest" time="1.23" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="com.teladoc.qa.testcases.UserTest" time="1.195" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.10+9-LTS"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/applejdk-11.0.10.9.1.jdk/Contents/Home/lib"/>
     <property name="gopherProxySet" value="false"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/rupalidash/Rupali-personal/TelaDocTest"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/rupalidash/git/Rupali_Dash_teladoc_challenge/TelaDocTest"/>
     <property name="java.vm.vendor" value="Apple Inc."/>
     <property name="java.vendor.url" value="https://java.apple.com"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/rupalidash/Rupali-personal/TelaDocTest"/>
+    <property name="user.dir" value="/Users/rupalidash/git/Rupali_Dash_teladoc_challenge/TelaDocTest"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="11.0.10+9-LTS"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
@@ -25,7 +25,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/rupalidash/Rupali-personal/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf8592607390970057574.tmp"/>
+    <property name="classworlds.conf" value="/Users/rupalidash/Rupali-personal/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf10762391306163017422.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/rupalidash/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="jdk.debug" value="release"/>
@@ -51,7 +51,7 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="11.0.10"/>
     <property name="java.vendor" value="Apple Inc."/>
-    <property name="maven.home" value="/Users/rupalidash/Rupali-personal/TelaDocTest/EMBEDDED"/>
+    <property name="maven.home" value="/Users/rupalidash/git/Rupali_Dash_teladoc_challenge/TelaDocTest/EMBEDDED"/>
     <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2021-01-19"/>
     <property name="java.vendor.url.bug" value="https://rdar.apple.com/new/1003593"/>
@@ -62,7 +62,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.teladoc.qa.testcases.UserTest" name="addUserTest" time="0.962"/>
-  <testcase classname="com.teladoc.qa.testcases.UserTest" name="verifyAddedUserTest" time="0.11"/>
-  <testcase classname="com.teladoc.qa.testcases.UserTest" name="verifyDeleteUserTest" time="0.158"/>
+  <testcase classname="com.teladoc.qa.testcases.UserTest" name="addUserTest" time="0.926"/>
+  <testcase classname="com.teladoc.qa.testcases.UserTest" name="verifyAddedUserTest" time="0.107"/>
+  <testcase classname="com.teladoc.qa.testcases.UserTest" name="verifyDeleteUserTest" time="0.162"/>
 </testsuite>

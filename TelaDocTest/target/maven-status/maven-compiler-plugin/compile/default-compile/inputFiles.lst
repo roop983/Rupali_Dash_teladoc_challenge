@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 /Users/rupalidash/git/Rupali_Dash_teladoc_challenge/TelaDocTest/src/main/java/com/teladoc/qa/util/TestUtil.java
 /Users/rupalidash/git/Rupali_Dash_teladoc_challenge/TelaDocTest/src/main/java/com/teladoc/qa/pages/HomeAddPage.java
 /Users/rupalidash/git/Rupali_Dash_teladoc_challenge/TelaDocTest/src/main/java/com/teladoc/qa/base/TestBase.java
+=======
+/Users/rupalidash/Rupali-personal/TelaDocTest/src/main/java/com/teladoc/qa/pages/HomeAddPage.java
+/Users/rupalidash/Rupali-personal/TelaDocTest/src/main/java/com/teladoc/qa/base/TestBase.java
+/Users/rupalidash/Rupali-personal/TelaDocTest/src/main/java/com/teladoc/qa/util/TestUtil.java
+>>>>>>> a98b07c01be7a8065c994308fa5f534268a95962

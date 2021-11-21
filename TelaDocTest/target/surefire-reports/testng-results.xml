@@ -2,29 +2,16 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2021-11-20T22:40:48 PST" name="com.teladoc.qa.testcases.UserTest" finished-at="2021-11-20T22:40:57 PST" duration-ms="9219">
+  <suite started-at="2021-11-20T23:14:45 PST" name="com.teladoc.qa.testcases.UserTest" finished-at="2021-11-20T23:15:00 PST" duration-ms="14311">
     <groups>
     </groups>
-    <test started-at="2021-11-20T22:40:48 PST" name="Command line test" finished-at="2021-11-20T22:40:57 PST" duration-ms="9219">
+    <test started-at="2021-11-20T23:14:45 PST" name="Command line test" finished-at="2021-11-20T23:15:00 PST" duration-ms="14311">
       <class name="com.teladoc.qa.testcases.UserTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.teladoc.qa.testcases.UserTest@2d3379b4]" started-at="2021-11-20T22:40:48 PST" name="setUp" finished-at="2021-11-20T22:40:55 PST" duration-ms="7355" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.teladoc.qa.testcases.UserTest@2d3379b4]" started-at="2021-11-20T23:14:45 PST" name="setUp" finished-at="2021-11-20T23:14:58 PST" duration-ms="12384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.teladoc.qa.testcases.UserTest@2d3379b4]" started-at="2021-11-20T22:40:56 PST" name="addUserTest" data-provider="getTestData" finished-at="2021-11-20T22:40:57 PST" duration-ms="924" status="PASS">
-=======
-  <suite started-at="2021-11-20T22:00:16 PST" name="com.teladoc.qa.testcases.UserTest" finished-at="2021-11-20T22:00:26 PST" duration-ms="9813">
-    <groups>
-    </groups>
-    <test started-at="2021-11-20T22:00:16 PST" name="Command line test" finished-at="2021-11-20T22:00:26 PST" duration-ms="9813">
-      <class name="com.teladoc.qa.testcases.UserTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.teladoc.qa.testcases.UserTest@2a4fb17b]" started-at="2021-11-20T22:00:16 PST" name="setUp" finished-at="2021-11-20T22:00:24 PST" duration-ms="7782" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="addUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.teladoc.qa.testcases.UserTest@2a4fb17b]" started-at="2021-11-20T22:00:24 PST" name="addUserTest" data-provider="getTestData" finished-at="2021-11-20T22:00:25 PST" duration-ms="959" status="PASS">
->>>>>>> a98b07c01be7a8065c994308fa5f534268a95962
+        <test-method signature="addUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.teladoc.qa.testcases.UserTest@2d3379b4]" started-at="2021-11-20T23:14:58 PST" name="addUserTest" data-provider="getTestData" finished-at="2021-11-20T23:14:59 PST" duration-ms="804" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,7 +30,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[5#$#(&]]>
+                <![CDATA[35#$#(&]]>
               </value>
             </param>
             <param index="4">
@@ -58,38 +45,22 @@
             </param>
             <param index="6">
               <value>
-<<<<<<< HEAD
                 <![CDATA[1219234]]>
-=======
-                <![CDATA[111222.0]]>
->>>>>>> a98b07c01be7a8065c994308fa5f534268a95962
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addUserTest -->
-<<<<<<< HEAD
-        <test-method signature="verifyAddedUserTest()[pri:2, instance:com.teladoc.qa.testcases.UserTest@2d3379b4]" started-at="2021-11-20T22:40:57 PST" name="verifyAddedUserTest" finished-at="2021-11-20T22:40:57 PST" duration-ms="108" status="PASS">
+        <test-method signature="verifyAddedUserTest()[pri:2, instance:com.teladoc.qa.testcases.UserTest@2d3379b4]" started-at="2021-11-20T23:14:59 PST" name="verifyAddedUserTest" finished-at="2021-11-20T23:14:59 PST" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddedUserTest -->
-        <test-method signature="verifyDeleteUserTest()[pri:3, instance:com.teladoc.qa.testcases.UserTest@2d3379b4]" started-at="2021-11-20T22:40:57 PST" name="verifyDeleteUserTest" finished-at="2021-11-20T22:40:57 PST" duration-ms="162" status="PASS">
+        <test-method signature="verifyDeleteUserTest()[pri:3, instance:com.teladoc.qa.testcases.UserTest@2d3379b4]" started-at="2021-11-20T23:14:59 PST" name="verifyDeleteUserTest" finished-at="2021-11-20T23:15:00 PST" duration-ms="290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDeleteUserTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.teladoc.qa.testcases.UserTest@2d3379b4]" started-at="2021-11-20T22:40:57 PST" name="tearDown" finished-at="2021-11-20T22:40:57 PST" duration-ms="1" status="PASS">
-=======
-        <test-method signature="verifyAddedUserTest()[pri:2, instance:com.teladoc.qa.testcases.UserTest@2a4fb17b]" started-at="2021-11-20T22:00:25 PST" name="verifyAddedUserTest" finished-at="2021-11-20T22:00:25 PST" duration-ms="110" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddedUserTest -->
-        <test-method signature="verifyDeleteUserTest()[pri:3, instance:com.teladoc.qa.testcases.UserTest@2a4fb17b]" started-at="2021-11-20T22:00:25 PST" name="verifyDeleteUserTest" finished-at="2021-11-20T22:00:25 PST" duration-ms="158" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDeleteUserTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.teladoc.qa.testcases.UserTest@2a4fb17b]" started-at="2021-11-20T22:00:25 PST" name="tearDown" finished-at="2021-11-20T22:00:26 PST" duration-ms="107" status="PASS">
->>>>>>> a98b07c01be7a8065c994308fa5f534268a95962
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.teladoc.qa.testcases.UserTest@2d3379b4]" started-at="2021-11-20T23:15:00 PST" name="tearDown" finished-at="2021-11-20T23:15:00 PST" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

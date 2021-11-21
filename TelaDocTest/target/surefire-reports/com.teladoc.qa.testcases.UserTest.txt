@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.teladoc.qa.testcases.UserTest
 -------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.501 sec
-=======
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.099 sec
->>>>>>> a98b07c01be7a8065c994308fa5f534268a95962
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.595 sec

@@ -13,10 +13,8 @@ import com.teladoc.qa.base.TestBase;
 
 public class HomeAddPage extends TestBase{
 	
-	
 	@FindBy(xpath="//button[@class='btn ng-scope ng-binding btn-primary']")
 	WebElement okButton;
-	
 	
 	@FindBy(css="tbody>tr>td:nth-of-type(3)")
 	List<WebElement> list;
@@ -71,44 +69,27 @@ public class HomeAddPage extends TestBase{
 	public HomeAddPage() {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
-	}
-	
-	
+	}	
 	public String validateUser() {
-		
-		
 		String actualUser="";
 		for(WebElement ele : list) {
-			
 			if (ele.getText().equalsIgnoreCase(prop.getProperty("userAdded"))) {
-				actualUser=ele.getText();
-				
-				
+				actualUser=ele.getText();	
 			}
 		}
-		
 		return actualUser;
-	}
-	
-	public void deleteUser() {
-		
-		
+	}	
+	public void deleteUser() {	
 		list=driver.findElements(By.cssSelector("tbody>tr>td:nth-of-type(3)"));
 		for (int i=0;i<list.size();i++) {
 			if (list.get(i).getText().equalsIgnoreCase(prop.getProperty("userDeleted"))) {
-				
 				int pos=i+1;
-				
 		    	 WebElement del=driver.findElement(By.cssSelector("tbody>tr:nth-of-type("+pos+")>td:nth-of-type(11)>button"));
-		    	
 		    	 del.click();
 		    	 okButton.click();
 		    	 break;
 		      }
-			
 		}
-
-		
 	}
 	public boolean checkIfUserDeleted() {
 		list=driver.findElements(By.cssSelector("tbody>tr>td:nth-of-type(3)"));

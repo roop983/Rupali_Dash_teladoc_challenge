@@ -44,7 +44,6 @@ public class UserTest extends TestBase{
 	
 	@Test(priority=3)  // Delete the User and verify if its removed from the list 
 	public void verifyDeleteUserTest() {
-		
 	
 		homeAddPage.deleteUser();
 		Assert.assertTrue(homeAddPage.checkIfUserDeleted());	

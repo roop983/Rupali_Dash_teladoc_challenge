@@ -10,11 +10,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import com.teladoc.qa.util.TestUtil;
 
-public class TestBase {
-	
+public class TestBase {	
 	public static WebDriver driver;
 	public static Properties prop;
-
 	
 	public TestBase() {
 		
@@ -27,8 +25,7 @@ public class TestBase {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	}
-	
+	}	
 	@SuppressWarnings("deprecation")
 	public  static void initialization() {
 		
@@ -37,14 +34,11 @@ public class TestBase {
 		if (browser.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
 			driver=new ChromeDriver();
-		}
-			
+		}	
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
-		
+		driver.manage().timeouts().implicitlyWait(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);	
 		driver.get(prop.getProperty("url"));
 	}
-
 }

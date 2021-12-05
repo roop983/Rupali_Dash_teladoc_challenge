@@ -15,3 +15,6 @@ or Navigate to the path where pom.xml exists and execute the below maven command
     mvn clean
     mvn compile
     mvn test
+    
+ NOTE: Ensure Chrome browser is present, as this project is designed to run only in this browser.
+   

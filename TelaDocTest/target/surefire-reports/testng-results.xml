@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-21T21:06:41 PST" name="com.teladoc.qa.testcases.UserTest" finished-at="2021-11-21T21:06:54 PST" duration-ms="12186">
+  <suite started-at="2021-12-05T15:14:07 PST" name="com.teladoc.qa.testcases.UserTest" finished-at="2021-12-05T15:14:14 PST" duration-ms="6899">
     <groups>
     </groups>
-    <test started-at="2021-11-21T21:06:41 PST" name="Command line test" finished-at="2021-11-21T21:06:54 PST" duration-ms="12186">
+    <test started-at="2021-12-05T15:14:07 PST" name="Command line test" finished-at="2021-12-05T15:14:14 PST" duration-ms="6899">
       <class name="com.teladoc.qa.testcases.UserTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.teladoc.qa.testcases.UserTest@2a4fb17b]" started-at="2021-11-21T21:06:42 PST" name="setUp" finished-at="2021-11-21T21:06:51 PST" duration-ms="9906" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.teladoc.qa.testcases.UserTest@2d3379b4]" started-at="2021-12-05T15:14:07 PST" name="setUp" finished-at="2021-12-05T15:14:12 PST" duration-ms="4952" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.teladoc.qa.testcases.UserTest@2a4fb17b]" started-at="2021-11-21T21:06:52 PST" name="addUserTest" data-provider="getTestData" finished-at="2021-11-21T21:06:53 PST" duration-ms="1106" status="PASS">
+        <test-method signature="addUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.teladoc.qa.testcases.UserTest@2d3379b4]" started-at="2021-12-05T15:14:13 PST" name="addUserTest" data-provider="getTestData" finished-at="2021-12-05T15:14:13 PST" duration-ms="947" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,15 +52,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addUserTest -->
-        <test-method signature="verifyAddedUserTest()[pri:2, instance:com.teladoc.qa.testcases.UserTest@2a4fb17b]" started-at="2021-11-21T21:06:53 PST" name="verifyAddedUserTest" finished-at="2021-11-21T21:06:53 PST" duration-ms="116" status="PASS">
+        <test-method signature="verifyAddedUserTest()[pri:2, instance:com.teladoc.qa.testcases.UserTest@2d3379b4]" started-at="2021-12-05T15:14:14 PST" name="verifyAddedUserTest" finished-at="2021-12-05T15:14:14 PST" duration-ms="115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddedUserTest -->
-        <test-method signature="verifyDeleteUserTest()[pri:3, instance:com.teladoc.qa.testcases.UserTest@2a4fb17b]" started-at="2021-11-21T21:06:53 PST" name="verifyDeleteUserTest" finished-at="2021-11-21T21:06:54 PST" duration-ms="185" status="PASS">
+        <test-method signature="verifyDeleteUserTest()[pri:3, instance:com.teladoc.qa.testcases.UserTest@2d3379b4]" started-at="2021-12-05T15:14:14 PST" name="verifyDeleteUserTest" finished-at="2021-12-05T15:14:14 PST" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDeleteUserTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.teladoc.qa.testcases.UserTest@2a4fb17b]" started-at="2021-11-21T21:06:54 PST" name="tearDown" finished-at="2021-11-21T21:06:54 PST" duration-ms="102" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.teladoc.qa.testcases.UserTest@2d3379b4]" started-at="2021-12-05T15:14:14 PST" name="tearDown" finished-at="2021-12-05T15:14:14 PST" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

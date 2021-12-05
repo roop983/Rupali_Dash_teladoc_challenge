@@ -51,6 +51,10 @@ public class HomeAddPage extends TestBase{
 	WebElement save;
 	
 	
+	public HomeAddPage() {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}	
 	
 	public void addUser(String firstname, String lastname, String username, String password, String role, String emailaddress, String phonenumber) {
 		addUser.click();
@@ -66,10 +70,7 @@ public class HomeAddPage extends TestBase{
 		save.click();
 		
 	}
-	public HomeAddPage() {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
-	}	
+	
 	public String validateUser() {
 		String actualUser="";
 		for(WebElement ele : list) {

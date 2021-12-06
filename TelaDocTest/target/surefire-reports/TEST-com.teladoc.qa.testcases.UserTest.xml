@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.teladoc.qa.testcases.UserTest" time="1.241" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="com.teladoc.qa.testcases.UserTest" time="3.434" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.10+9-LTS"/>
@@ -25,16 +25,14 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/rupalidash/Documents/apache-maven-3.8.3/bin/m2.conf"/>
+    <property name="classworlds.conf" value="/Users/rupalidash/Rupali-personal/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf11040668440107576337.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/rupalidash/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="maven.conf" value="/Users/rupalidash/Documents/apache-maven-3.8.3/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.16"/>
-    <property name="library.jansi.path" value="/Users/rupalidash/Documents/apache-maven-3.8.3/lib/jansi-native"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/rupalidash"/>
     <property name="user.timezone" value="America/Los_Angeles"/>
@@ -42,10 +40,10 @@
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="11"/>
     <property name="user.name" value="rupalidash"/>
-    <property name="java.class.path" value="/Users/rupalidash/Documents/apache-maven-3.8.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735/jars/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/applejdk-11.0.10.9.1.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -53,7 +51,7 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="11.0.10"/>
     <property name="java.vendor" value="Apple Inc."/>
-    <property name="maven.home" value="/Users/rupalidash/Documents/apache-maven-3.8.3"/>
+    <property name="maven.home" value="/Users/rupalidash/git/Rupali_Dash_teladoc_challenge/TelaDocTest/EMBEDDED"/>
     <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2021-01-19"/>
     <property name="java.vendor.url.bug" value="https://rdar.apple.com/new/1003593"/>
@@ -64,7 +62,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.teladoc.qa.testcases.UserTest" name="addUserTest" time="0.949"/>
-  <testcase classname="com.teladoc.qa.testcases.UserTest" name="verifyAddedUserTest" time="0.115"/>
-  <testcase classname="com.teladoc.qa.testcases.UserTest" name="verifyDeleteUserTest" time="0.177"/>
+  <testcase classname="com.teladoc.qa.testcases.UserTest" name="addUserTest" time="2.924"/>
+  <testcase classname="com.teladoc.qa.testcases.UserTest" name="verifyAddedUserTest" time="0.25"/>
+  <testcase classname="com.teladoc.qa.testcases.UserTest" name="verifyDeleteUserTest" time="0.26"/>
 </testsuite>

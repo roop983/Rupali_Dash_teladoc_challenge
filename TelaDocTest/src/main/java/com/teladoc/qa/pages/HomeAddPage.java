@@ -94,7 +94,7 @@ public class HomeAddPage extends TestBase{
 	}
 	public boolean checkIfUserDeleted() {
 		list=driver.findElements(By.cssSelector("tbody>tr>td:nth-of-type(3)"));
-		int count=0;
+		//int count=0;
 		
 		/*for(int i=0;i<list.size();i++) {
 			if(list.get(i).getText().equals(prop.getProperty("userDeleted"))) {

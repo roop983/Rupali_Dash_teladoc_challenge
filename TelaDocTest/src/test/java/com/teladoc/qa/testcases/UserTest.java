@@ -16,6 +16,10 @@ public class UserTest extends TestBase{
 	TestUtil testUtil;
 	String sheetName = "UserDetails";
 	
+	public UserTest(){
+		super();
+	}
+	
 	@BeforeClass
 	public void setUp() {
 		initialization();
